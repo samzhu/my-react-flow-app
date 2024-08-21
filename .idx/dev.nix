@@ -10,7 +10,7 @@
     # pkgs.python311Packages.pip
     pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
-    pkgs.bun
+    # pkgs.bun
   ];
   # Sets environment variables in the workspace
   env = {};
@@ -27,7 +27,7 @@
           # Example: run "npm run dev" with PORT set to IDX's defined port for previews,
           # and show it in IDX's web preview panel
           # command = ["bun" "run" "dev"];
-          command = ["npm" "run" "dev" "--" "--port" "$PORT" "--hostname" "0.0.0.0"];
+          command = ["npm" "run" "dev" "--" "--port" "$PORT" "--host" "0.0.0.0"];
           manager = "web";
         };
       };
