@@ -1,3 +1,10 @@
+<a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fsamzhu%2Fmy-react-flow-app">
+  <img
+    height="32"
+    alt="Open in IDX"
+    src="https://cdn.idx.dev/btn/open_light_32.svg">
+</a>
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
